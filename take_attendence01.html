@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="registration01.css">
+    <title>Take attendance</title>
+</head>
+<body background="main_img01.jpg" style="background-size: 100% 100%; background-attachment:fixed;">
+    <div class="outer">
+        <!-- <div id="d1">Attendance System</div> -->
+        <div id="d1">Count Virtual</div>
+        <div style="font-size: 20px;"><h3>Change the way you count</div>
+        <div class="inner">
+            <a href="home01.html">Home</a>
+            <a href="register01.html">Registration</a>
+            <a class="active" href="take_attendance01.html">Take attendance</a>
+        </div>
+    </div>
+
+    <div class="field">
+    <form action = "http://localhost:5000/take_attendence" method = "post">
+        Course Code:
+        <input type="text" name="coursecode" required="required" style="background: rgb(255,255,255);  width: 200px; height: 30px; vertical-align: middle; color: black;"><br><br>
+        Class Id:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="classid" required="required" style="background: rgb(255,255,255); width: 200px; height: 30px; vertical-align: middle; color: black;"><br><br>
+        <div style="text-align: center;">
+            <button class="field" style="width: 180px; height: 30px;">Take attendance</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="registration01.css">
+    <title>Register</title>
+</head>
+<body background="main_img01.jpg" style="background-size: 100% 100%; background-attachment:fixed;">
+    <div class="outer">
+        <!-- <div id="d1">Attendance System</div> -->
+        <div id="d1">Count Virtual</div>
+        <div style="font-size: 20px;"><h3>Change the way you count</div>
+        <div class="inner">
+            <a href="home01.html">Home</a>
+            <a class="active" href="register01.html">Registration</a>
+            <a href="take_attendence01.html">Take attendance</a>
+        </div>
+    </div>
+
+    <div class="field">
+    <form action = "http://localhost:5000/register" method = "post">
+        Name:&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="name" required="required" style="background: rgb(255,255,255);  width: 250px; height: 30px; vertical-align: middle; color: black;"><br><br>
+        Roll No.:
+        <input type="text" name="r_no" required="required" style="background: rgb(255,255,255); width: 250px; height: 30px; vertical-align: middle; color: black;"><br><br>
+        <div style="text-align: center;">
+            <button class="field">Submit</button>
+        </div>
+    </form>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+div.outer {
+	text-align: center;
+	width: 30%;
+	font-style: verdana,sans-serif;
+	vertical-align: middle;
+	margin-top: 90px;
+	margin-left: 60px;
+	font-size: 45px;
+	border-bottom: solid;
+}
+
+div.field{
+	text-align: left;
+	width: 30%;
+	font-style: verdana,sans-serif;
+	margin-top: 30px;
+	margin-left: 60px;
+	font-size: 20px;
+	background: rgb(255,255,255);
+	border: solid 1px;
+	border-radius: 20px;
+}
+
+div.field01{
+	text-align: left;
+	width: 20%;
+	font-style: verdana,sans-serif;
+	margin-top: 30px;
+	margin-left: 150px;
+	font-size: 20px;
+	background: rgb(255,255,255);
+}
+
+button.field{
+	background-color: white;
+	width: 90px;
+	height: 30px;
+	color: black;
+	font-family: serif;
+	font-size: 20px;
+}
+
+fieldset {
+    text-align: center;
+	align-content: center;
+	width: 65%;
+	margin: auto;
+	vertical-align: middle;
+	padding: 40px;
+	font-size: 30px;
+	font-style: verdana,sans-serif;
+	color: white;
+	border-color: #b38600;
+	border-style: solid;
+	border: none;
+	background: rgb(0,0,0);
+	background: rgba(0,0,0,0.8);
+	border-radius: 20px;
+}
+
+form {
+    text-align: left;
+	align-content: center;
+	padding-top: 15px;
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-bottom: 40px;
+	color: black;
+	vertical-align: middle;
+}
+
+#d1{
+	padding-top: 50px;
+}
+
+div.inner{
+  overflow: hidden;
+  margin-top: 45px;
+  margin-left: 12px;
+  font-size: 20px;
+}
+
+.inner a {
+  float: left;
+  color: rgba(0,0,0,0.8);
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.inner a:hover{
+	background-color: gray;
+	color: white;
+}
+
+.inner a.active{
+	background-color: #cc0000;
+	color: white;
+}
